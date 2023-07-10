@@ -51,7 +51,7 @@ body {
     padding: 15px 35px;
 }
 
-/* Featured Section css */
+/* Featured Section Styles */
 
 .featured-content {
     padding: 120px 0 0 0;
@@ -115,7 +115,7 @@ body {
     text-decoration: underline;
 }
 
-/* Hot deal css */
+/* Hot deal Styles */
 .hot-deal {
     background: rgba(229, 84, 115, 0.10);
     display: flex;
@@ -153,7 +153,7 @@ body {
     max-width: 230px;
 }
 
-/* Instagram Section css */
+/* Instagram Section Styles */
 
 .instagram-content {
     padding: 120px 0 0 0;
@@ -188,7 +188,7 @@ body {
     width: 220px;
 }
 
-/* Subscribe Section css */
+/* Subscribe Section Styles */
 
 .subscribe {
     padding: 100px 0;
@@ -198,7 +198,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin: 20px 173px;
+    margin: 60px 173px;
     border-radius: 8px;
 }
 
@@ -232,4 +232,36 @@ body {
     font-weight: 700;
     padding: 15px 35px;
     margin-left: 10px;
+}
+
+/* Footer Styles */
+
+.footer {
+    background: #111010;
+    padding: 80px 0px 80px 0px;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer h1 {
+    color: #E55473;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 32px;
+}
+
+#f-shop{
+    color: #fff;
+}
+
+.footer p {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 20px 0;
+}
+#copyright p{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 12px;
 }
