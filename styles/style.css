@@ -114,3 +114,41 @@ body {
     font-size: 18px;
     text-decoration: underline;
 }
+
+/* Hot deal css */
+.hot-deal {
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    padding: 60px 0px;
+    text-align: center;
+}
+
+.deal-content{
+    padding: 0 150px 0 50px;
+}
+.deal-content h1{
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 32px;
+}
+
+#deal-off{
+    color: #E55473;
+}
+
+.deal-content p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 20px 0;
+}
+
+.hot-deal img{
+    max-width: 230px;
+}
+
