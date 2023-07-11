@@ -115,6 +115,43 @@ body {
     text-decoration: underline;
 }
 
+/* Bonus Section - About Us Styles */
+.about-row{
+    display: flex;
+    margin-top: 100px;
+}
+
+.about-content{
+    width: 40%;
+    margin: 50px 10px 10px 188px;
+}
+
+.about-content h1{
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 32px;
+}
+
+.about-content p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 20px 0;
+
+}
+
+.about-images{
+    width: 60%;
+    margin: 0 0 0 25px;
+}
+.about-images img {
+    width: 234px;
+    padding: 5px;
+}
+
+
 /* Hot deal Styles */
 .hot-deal {
     background: rgba(229, 84, 115, 0.10);
@@ -238,7 +275,7 @@ body {
 
 .footer {
     background: #111010;
-    padding: 80px 0px 80px 0px;
+    padding: 80px 0px 50px 0px;
     justify-content: center;
     text-align: center;
 }
